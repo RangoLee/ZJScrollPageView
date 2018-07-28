@@ -370,7 +370,7 @@
 		4B0C06231CDC55080079E8F3 = {
 			isa = PBXGroup;
 			children = (
-				4B0C062E1CDC55080079E8F3 /* ZJScrollPageView */,
+				4B0C062E1CDC55080079E8F3 /* ZJScrollPageViewDemo */,
 				4B0C06481CDC55080079E8F3 /* ZJScrollPageViewTests */,
 				4B0C06531CDC55080079E8F3 /* ZJScrollPageViewUITests */,
 				4B0C062D1CDC55080079E8F3 /* Products */,
@@ -387,7 +387,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B0C062E1CDC55080079E8F3 /* ZJScrollPageView */ = {
+		4B0C062E1CDC55080079E8F3 /* ZJScrollPageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				4B7429CE1CDD9C16009CC9B2 /* ZJScrollPageView */,
@@ -409,7 +409,7 @@
 				4B0C06401CDC55080079E8F3 /* Info.plist */,
 				4B0C062F1CDC55080079E8F3 /* Supporting Files */,
 			);
-			path = ZJScrollPageView;
+			path = ZJScrollPageViewDemo;
 			sourceTree = "<group>";
 		};
 		4B0C062F1CDC55080079E8F3 /* Supporting Files */ = {

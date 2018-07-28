@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUn-H6-hBc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jUn-H6-hBc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <development version="7000" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Vc1 Controller-->
@@ -15,15 +18,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="no2-24-4Ri">
-                                <rect key="frame" x="28" y="568" width="46" height="30"/>
+                                <rect key="frame" x="28" y="635" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="no2-24-4Ri" secondAttribute="bottom" constant="2" id="6VC-gd-ukH"/>
                             <constraint firstItem="no2-24-4Ri" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="28" id="fJh-38-Ouq"/>
@@ -33,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1177" y="-324"/>
+            <point key="canvasLocation" x="1345" y="3"/>
         </scene>
         <!--效果类型-->
         <scene sceneID="g6R-7x-oDT">
@@ -44,127 +47,127 @@
                         <viewControllerLayoutGuide type="bottom" id="zNP-2a-OLq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nn6-u9-Pno">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSE-QW-fa8">
-                                <rect key="frame" x="0.0" y="97" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="97" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="遮盖+颜色渐变+segmentView没有弹性 效果">
-                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="BRX-db-OjK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F8-4z-rU3">
-                                <rect key="frame" x="0.0" y="132" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="132" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="缩放+颜色渐变 效果">
-                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="sv7-4Z-Oer" kind="show" id="fEs-94-fud"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcS-29-cKC">
-                                <rect key="frame" x="0.0" y="167" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="167" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="滚动条+颜色渐变 效果">
-                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Kio-wF-VKv" kind="show" id="jTY-7h-bZn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7r-Wi-FTV">
-                                <rect key="frame" x="0.0" y="202" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="202" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="遮盖+缩放+没有颜色渐变 效果">
-                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="d3f-YG-ZSV" kind="show" id="sfh-Bt-LRs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYz-KC-G1m">
-                                <rect key="frame" x="0.0" y="237" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="237" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="标题不滚动+遮盖+颜色渐变 效果">
-                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522651006708" green="0.61430279567011725" blue="0.38850389390094997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="by8-mp-D0f" kind="show" id="d7N-EO-YQu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题不滚动的时候不要使用(缩放+遮盖)或(缩放+滚动条),其他效果之间可以组合!!,您可以大胆的去组合一下试试" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gS3-bf-eh7">
-                                <rect key="frame" x="15" y="448" width="570" height="41"/>
+                                <rect key="frame" x="15" y="448" width="345" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtj-Re-0D2">
-                                <rect key="frame" x="0.0" y="272" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="272" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="自定义segmentView和contentView位置的效果)">
-                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="yG5-zu-UdU" kind="show" id="Buk-aL-LM9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lud-Al-QP1">
-                                <rect key="frame" x="0.0" y="307" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="307" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="动态修改标题和内容效果示例">
-                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="B9S-7u-8V1" kind="show" id="SEa-4p-1iq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkN-iI-tlG">
-                                <rect key="frame" x="0.0" y="342" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="342" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="更改下标效果示例">
-                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="eoJ-rM-IB7" kind="show" id="5hc-DN-nO6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcc-e9-lyC">
-                                <rect key="frame" x="0.0" y="377" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="377" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="微博&amp;简书个人主页效果示例">
-                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="kQf-ID-8zj" kind="show" id="P9f-hs-8p6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2O-Je-92T">
-                                <rect key="frame" x="0.0" y="412" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="412" width="375" height="34"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="显示图片的效果示例">
-                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.66681522650000002" green="0.61430279570000001" blue="0.38850389390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="VnY-et-KI6" kind="show" id="8Hq-hn-xcJ"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="JcS-29-cKC" firstAttribute="top" secondItem="2F8-4z-rU3" secondAttribute="bottom" constant="1" id="0Nv-Mm-QIz"/>
                             <constraint firstItem="Xcc-e9-lyC" firstAttribute="leading" secondItem="MkN-iI-tlG" secondAttribute="leading" id="2Y3-4k-Zbr"/>
@@ -219,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pA8-tx-ia2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="271" y="2436"/>
+            <point key="canvasLocation" x="270" y="1789"/>
         </scene>
         <!--Vc10 Controller-->
         <scene sceneID="5bS-ND-7Ks">
@@ -230,14 +233,14 @@
                         <viewControllerLayoutGuide type="bottom" id="cM3-Im-3hJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UiR-TR-kKn">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlN-5a-Inq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="687" y="5962"/>
+            <point key="canvasLocation" x="-2034" y="2718"/>
         </scene>
         <!--Vc9 Controller-->
         <scene sceneID="lhr-O4-HvZ">
@@ -248,14 +251,14 @@
                         <viewControllerLayoutGuide type="bottom" id="v0k-U0-hpx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Y2d-Xs-6kZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sP6-uv-NhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704" y="5267"/>
+            <point key="canvasLocation" x="-1372" y="2718"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="weN-VC-QRt">
@@ -263,7 +266,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jUn-H6-hBc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uxs-bf-Jik">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -273,7 +276,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gaD-NS-tc0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-451" y="2436"/>
+            <point key="canvasLocation" x="-452" y="1789"/>
         </scene>
         <!--Vc5 Controller-->
         <scene sceneID="ZKl-oW-A84">
@@ -284,14 +287,14 @@
                         <viewControllerLayoutGuide type="bottom" id="82B-p8-eHk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aFB-ih-NGw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nlg-Qo-wn8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062" y="2511"/>
+            <point key="canvasLocation" x="1345" y="2717"/>
         </scene>
         <!--Vc3 Controller-->
         <scene sceneID="WxI-5t-3aW">
@@ -302,14 +305,14 @@
                         <viewControllerLayoutGuide type="bottom" id="YKy-ea-reU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BXb-OP-FQ0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dto-hq-ese" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="1113"/>
+            <point key="canvasLocation" x="1345" y="1321"/>
         </scene>
         <!--Vc2 Controller-->
         <scene sceneID="Hhq-Dq-bC3">
@@ -320,14 +323,14 @@
                         <viewControllerLayoutGuide type="bottom" id="XXX-ZR-JjB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1hh-bE-CiF">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVI-Gj-MIf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="439"/>
+            <point key="canvasLocation" x="1345" y="657"/>
         </scene>
         <!--Vc4 Controller-->
         <scene sceneID="bgc-lW-Anp">
@@ -338,14 +341,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Te9-rU-7sj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jLG-3U-crd">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FF1-SU-asn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="1813"/>
+            <point key="canvasLocation" x="1345" y="1978"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MKm-Ch-Udm">
@@ -356,14 +359,14 @@
                         <viewControllerLayoutGuide type="bottom" id="V5K-DE-neG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lPS-zx-Nuw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W86-hv-h8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-459" y="3648"/>
+            <point key="canvasLocation" x="270" y="1089"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="Lvp-h7-ftW">
@@ -374,7 +377,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bmA-AP-ypd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3zq-a9-9by">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVf-3T-KVe">
@@ -386,7 +389,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.49803921569999998" green="0.80784313730000001" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49803921569999998" green="0.80784313730000001" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DVf-3T-KVe" firstAttribute="leading" secondItem="3zq-a9-9by" secondAttribute="leading" constant="69" id="QMZ-Im-5iY"/>
                             <constraint firstItem="DVf-3T-KVe" firstAttribute="top" secondItem="arn-hg-Zci" secondAttribute="bottom" constant="64" id="zE6-yI-JBl"/>
@@ -395,7 +398,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWX-tl-Ac8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="210" y="3635"/>
+            <point key="canvasLocation" x="-452" y="1089"/>
         </scene>
         <!--Title-->
         <scene sceneID="2m6-nI-2QZ">
@@ -406,9 +409,9 @@
                         <viewControllerLayoutGuide type="bottom" id="0eA-WA-Mlt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="20K-FD-LIx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="nMt-z8-c4O">
                         <barButtonItem key="rightBarButtonItem" title="切换下标" id="vHr-Md-R2S">
@@ -420,7 +423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ha-gE-0jd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1032" y="4555"/>
+            <point key="canvasLocation" x="-727" y="2718"/>
         </scene>
         <!--Vc6 Controller-->
         <scene sceneID="D2t-FE-xZE">
@@ -431,14 +434,14 @@
                         <viewControllerLayoutGuide type="bottom" id="p5g-dB-L0T"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Re-cl-kdb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zaY-1A-MXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="3183"/>
+            <point key="canvasLocation" x="622" y="2717"/>
         </scene>
         <!--更改内容-->
         <scene sceneID="bmg-Eo-iSJ">
@@ -449,9 +452,9 @@
                         <viewControllerLayoutGuide type="bottom" id="S9Y-0j-qJV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FSP-e3-47C">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="更改内容" id="DJV-CW-2gE">
@@ -465,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTb-Cb-uBz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="3888"/>
+            <point key="canvasLocation" x="-66" y="2718"/>
         </scene>
     </scenes>
 </document>
