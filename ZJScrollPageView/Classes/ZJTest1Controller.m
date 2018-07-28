@@ -7,7 +7,7 @@
 //
 
 #import "ZJTest1Controller.h"
-#import "ZJScrollPageView/ZJScrollPageView.h"
+#import "ZJScrollPageView.h"
 @interface ZJTest1Controller ()
 
 @end

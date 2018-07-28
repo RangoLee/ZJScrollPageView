@@ -10,7 +10,7 @@
 #import "ZJScrollPageView.h"
 #import "ZJPageTableViewController.h"
 #import "ZJPageCollectionViewController.h"
-#import "MJRefresh/MJRefresh.h"
+#import "MJRefresh.h"
 static CGFloat const segmentViewHeight = 44.0;
 static CGFloat const naviBarHeight = 64.0;
 static CGFloat const headViewHeight = 200.0;
@@ -78,6 +78,7 @@ static NSString * const cellID = @"cellID";
             childVc = [[ZJPageTableViewController alloc] init];
             ZJPageTableViewController *vc = (ZJPageTableViewController *)childVc;
             vc.delegate = self;
+            
         } else {
             childVc = [[ZJPageCollectionViewController alloc] init];
             ZJPageCollectionViewController *vc = (ZJPageCollectionViewController *)childVc;

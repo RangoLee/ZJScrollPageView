@@ -400,10 +400,10 @@
             </objects>
             <point key="canvasLocation" x="-452" y="1089"/>
         </scene>
-        <!--Title-->
+        <!--Vc8 Controller-->
         <scene sceneID="2m6-nI-2QZ">
             <objects>
-                <viewController id="eoJ-rM-IB7" customClass="ZJVc8Controller" sceneMemberID="viewController">
+                <viewController id="eoJ-rM-IB7" userLabel="Vc8 Controller" customClass="ZJVc8Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h8k-ui-bzD"/>
                         <viewControllerLayoutGuide type="bottom" id="0eA-WA-Mlt"/>
@@ -413,7 +413,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="nMt-z8-c4O">
+                    <navigationItem key="navigationItem" title="title" id="nMt-z8-c4O">
                         <barButtonItem key="rightBarButtonItem" title="切换下标" id="vHr-Md-R2S">
                             <connections>
                                 <action selector="changeBtnOnClick:" destination="eoJ-rM-IB7" id="hJ3-tm-hDb"/>
@@ -443,10 +443,10 @@
             </objects>
             <point key="canvasLocation" x="622" y="2717"/>
         </scene>
-        <!--更改内容-->
+        <!--Vc7 Controller-->
         <scene sceneID="bmg-Eo-iSJ">
             <objects>
-                <viewController id="B9S-7u-8V1" customClass="ZJVc7Controller" sceneMemberID="viewController">
+                <viewController id="B9S-7u-8V1" userLabel="Vc7 Controller" customClass="ZJVc7Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dQF-Ua-7Yr"/>
                         <viewControllerLayoutGuide type="bottom" id="S9Y-0j-qJV"/>
